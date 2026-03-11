@@ -3,6 +3,40 @@
 Documenting practical IT experience gained through home lab experimentation, personal and family device troubleshooting, and independent technical learning in addition to structured coursework.
 
 ---
+### HDD Recovery and Configuration - March 2026
+
+**Problem**
+
+While experimenting with a Linux bootable USB drive, a 1TB internal HDD appeared as unallocated and formatted as RAW in Windows Disk Management, making the drive unusable.
+
+**Actions**
+
+* Verified the drive status in Windows Disk Management, which reported the drive as healthy.
+* Opened the laptop to physically confirm the drive was installed correctly and performed a quick internal clean of the fan. 
+* Reformatted the drive from RAW to NTFS to make it compatible with Windows.
+* Allocated a drive letter to mount the drive.
+* Renamed the drive for easier identification.
+* Tested functionality by copying files to the drive to confirm read/write capability.
+* Confirmed the drive appeared correctly in File Explorer and operated normally.
+
+**Result**
+
+The 1TB HDD is now fully operational and has been configured for use as storage for virtual machines.
+
+**Skills Used**
+
+* Troubleshooting storage and disk allocation issues
+* Filesystem formatting and disk configuration
+* Basic hardware inspection and laptop maintenance
+* Verifying system changes through functional testing
+
+**Tools Used**
+
+* Windows Disk Management
+* Windows File Explorer
+* Bootable Linux USB environment
+* Physical hardware inspection
+
 ## Creating a Bootable Linux USB & Investigating a Mystery 1TB Hard Drive – March 2026
 ### Problem
 
